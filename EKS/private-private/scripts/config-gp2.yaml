@@ -19,7 +19,7 @@ OperationsCenter:
       operator: Equal
       value: masters
 Persistence: 
-  StorageClass: aws-efs
+  StorageClass: gp2
 nginx-ingress: 
   Enabled: false
 Master: 
